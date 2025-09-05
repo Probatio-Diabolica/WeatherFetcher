@@ -80,11 +80,6 @@ func main() {
 		log.Fatal("Failed to decode JSON: ", err)
 	}
 
-	// fmt.Printf("Weather in %s: %.1f°C - %s\n",
-	// 	w.Name,
-	// 	w.Main.Temp-273.15,
-	// 	w.Weather[0].Description,
-	// )
 	fmt.Printf(
 		"Location: %s, %s (Lat: %.2f, Lon: %.2f)\n"+
 			"Temperature: %.1f°C (Feels like %.1f°C)\n"+
