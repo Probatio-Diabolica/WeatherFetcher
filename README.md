@@ -17,7 +17,7 @@ A simple command-line tool written in Go that fetches current weather data from 
 Clone the repo:
 ```bash
 git clone https://github.com/Probatio-Diabolica/WeatherFetcher.git
-cd go-weather-cli
+cd WeatherFetcher
 ```
 Install dependencies:
 ```bash
